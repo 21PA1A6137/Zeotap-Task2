@@ -51,7 +51,7 @@ else:
         ax.legend()
 
         st.pyplot(fig)
-        if city_data['max_temp'].max() > 30:
+        if city_data['max_temp'].max() > 32:
             st.warning("High temperature alert! Stay hydrated.")
 
 
